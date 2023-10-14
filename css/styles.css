@@ -1,0 +1,60 @@
+/* general styles*/
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* buttons */
+button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1675da;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1675da;
+}
+
+/* inputs */
+input,
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #c9c9c9;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* images */
+img {
+    max-width: 100%;
+    border: 5px solid #c9c9c9;
+    margin-top: 20px;
+    display: block;
+}
+
+/* student ID */
+#myStudentId {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid #1675da;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #1675da;
+    text-align: center;
+    margin-bottom: 20px;
+}
